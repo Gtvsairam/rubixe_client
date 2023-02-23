@@ -65,27 +65,6 @@ export default function SignInSide() {
 
 
   }
-       
-        
-        // ////////////////////////////////////////----------------///////////////
-        // .then((res) => { console.log(res.data)})
-        //   .then((data)=>{
-        //           console.log(data,"userRegister");
-            
-        //           // localStorage.setItem('name',data.name)
-        //           if(data.status === "200"){
-        //               alert(`Successfully logged in`)
-        //               navigate('/')
-        //             //    return (alert("Welcome "+ res.data.username))
-                    
-        //           }else{
-        //               alert(data.error)
-        //               console.log(data.error);
-        //           }
-        // }).catchcatch((error) => {
-        //     console.log(error)
-        // })
-
     
   return (
     <ThemeProvider theme={theme}>
