@@ -2,7 +2,8 @@
 import './App.css';
 import { BrowserRouter,  Routes,  Route } from "react-router-dom"
 import Header from './components/Header/Header';
-import Signup from './components/Registration/Signup';
+import Registration from './components/Registration/Registration'
+// import Signup from './components/Registration/Signup';
 import Login from './components/Registration/Login';
 import Home from './components/Pages/Home';
 import Services from './components/Pages/Services'
@@ -23,7 +24,7 @@ function App() {
     <Route path='/services' element={<Services/>}/>
     <Route path='/career' element={<Career/>}/>
     <Route path='/admin' element={<Admin/>}/>
-    <Route path='/signup' element={<Signup/>}/>
+    <Route path='/Registration' element={<Registration/>}/>
     <Route path='/update/:id' element={<Update/>}/>
     <Route path='/login' element={<Login/>}/>
     
